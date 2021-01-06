@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './scss/app';
 import List from './List';
+import Detail from './Detail';
 
 class App extends React.Component<IAppProps, IAppState> {
 	constructor(props: IAppProps) {
@@ -28,6 +29,7 @@ class App extends React.Component<IAppProps, IAppState> {
 				<Router>
 					<Switch>
 				<Route exact path="/" component={List} />
+				<Route exact path="/" component={Detail} />
 				</Switch>
 				</Router>
 				
