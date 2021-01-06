@@ -26,3 +26,7 @@ interface IListProps {
 
 }
 
+interface IListState {
+    names: Array<string>;
+}
+
