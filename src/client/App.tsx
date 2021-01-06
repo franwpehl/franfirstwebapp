@@ -29,7 +29,7 @@ class App extends React.Component<IAppProps, IAppState> {
 				<Router>
 					<Switch>
 				<Route exact path="/" component={List} />
-				<Route exact path="/" component={Detail} />
+				<Route exact path="/:name" component={Detail} />
 				</Switch>
 				</Router>
 				
